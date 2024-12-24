@@ -1,5 +1,4 @@
 import styles from "../style";
-import { discount, card } from "../assets";
 import draw from "../assets/draw.png";
 import GetStarted from "./GetStarted";
 
