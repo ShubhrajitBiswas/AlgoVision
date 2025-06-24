@@ -135,7 +135,7 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## 🙏 Acknowledgements
 
 - Inspired by classic algorithm visualizer tools.
-- Built with love by [Shubhrajit Biswas](https://github.com/ShubhrajitBiswas).
+- Built with ❤️ by [Shubhrajit Biswas](https://github.com/ShubhrajitBiswas).
 
 ---
 
