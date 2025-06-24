@@ -1,0 +1,123 @@
+.visualization-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  padding: 2rem;
+}
+
+.visualization-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 1200px;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.grid-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background-color: #000000;
+  padding: 1px;
+  border-radius: 4px;
+  min-height: 0;
+}
+
+.grid-row {
+  display: flex;
+  gap: 1px;
+  flex: 1;
+}
+
+.grid-cell {
+  flex: 1;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 2px;
+}
+
+.grid-cell:hover {
+  opacity: 0.8;
+}
+
+.grid-cell.item_initial {
+  background-color: #ffffff;
+}
+
+.grid-cell.item_visited {
+  background-color: #75e1ff;
+  animation: visited 0.5s ease-in-out;
+}
+
+.grid-cell.item_clicked {
+  background-color: #fcba03;
+}
+
+.grid-cell.item_shortest {
+  background-color: #cf2541;
+  animation: shortest 0.5s ease-in-out;
+}
+
+@keyframes visited {
+  0% {
+    transform: scale(0.3);
+    background-color: #a8e9ff;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: #75e1ff;
+  }
+  75% {
+    transform: scale(1.2);
+    background-color: #4ad8ff;
+  }
+  100% {
+    transform: scale(1);
+    background-color: #75e1ff;
+  }
+}
+
+@keyframes shortest {
+  0% {
+    transform: scale(0.3);
+    background-color: #ff4d6d;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: #cf2541;
+  }
+  75% {
+    transform: scale(1.2);
+    background-color: #a61e36;
+  }
+  100% {
+    transform: scale(1);
+    background-color: #cf2541;
+  }
+}
+
+.info-message {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 20px;
+} 
