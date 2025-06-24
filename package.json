@@ -1,13 +1,12 @@
 {
   "homepage": "https://ShubhrajitBiswas.github.io/AlgoVision",
-  "name": "business-website-template",
+  "name": "algovision",
   "private": true,
   "version": "1.0.0",
   "type": "commonjs",
 
   "scripts": {
     "dev": "vite",
-    "start": "react-scripts start",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
