@@ -2,7 +2,7 @@
 
 **AlgoVision** is an interactive platform to explore, understand, and visualize the inner workings of popular algorithms. Whether you're a student, educator, or tech enthusiast, AlgoVision makes learning algorithms engaging, intuitive, and visual.
 
-<!-- Optionally add a banner image here -->
+![AlgoVision Screenshot](https://raw.githubusercontent.com/ShubhrajitBiswas/AlgoVision/main/src/assets/homepage.png)
 
 ---
 
